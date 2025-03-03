@@ -1,0 +1,61 @@
+html{
+   scroll-behavior: smooth;
+} 
+
+*{
+ background-color: rgb(193, 243, 244);
+ }
+ 
+ nav ul{
+ list-style-type: none;
+ margin: 0 550px;
+ display: flex;
+ /* background-color: rgb(232, 237, 237); */
+ padding: 1rem;
+ border-radius: 35px;
+ width: 400px;
+ justify-content: center;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ cursor: pointer;
+
+ }
+
+
+li{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 14px 25px;
+} 
+
+.links{
+    color: black;
+    text-decoration: none;
+} 
+
+ul :hover{
+    background-color: rgb(27, 160, 164);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.profile{
+    border-radius: 50%;
+    padding: 0 42px;
+    border-color: rgb(32, 26, 26);
+    height: 130px;
+    margin-left: 110px;
+    margin-top: 20px;
+   
+    /* float: right; */
+}
+
+.stt{
+    font-size:large;
+    padding: 42px 42px 0;
+}
+
+.chess{
+    font-size:large;
+    padding: 20px 42px;  
+}
